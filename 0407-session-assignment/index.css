@@ -18,6 +18,7 @@
 }
 blockquote{
     font-family: 'GangwonEduSaeeum_OTFMediumA';
+    font-size: 50px;
 }
 body{
     font-family: 'GmarketSansMedium';
@@ -60,7 +61,27 @@ section{
     background-color: yellow;
     border-radius: 45px;
     padding:10px 20px 10px 20px;
+    box-shadow: 5px 5px 5px;
     /* height:30px; */
+}
+.btnWhite{
+    font-family:'GmarketSansBold';
+    display:inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#3A4CA8;
+    background-color: whie;
+    border-radius: 45px;
+    padding:10px 20px 10px 20px;
+    box-shadow: 5px 5px 5px;
+}
+#btnTraining{
+    display:none;
+    background-color: yellow;
+}
+#btnSharing{
+    display: none;
 }
 
 .inputBox{
@@ -88,4 +109,50 @@ main{
 footer{
     color:white;
     text-align: center;
+}
+.whiteContainer{
+    visibility: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:#3A4CA8;
+    border-radius: 10px;
+}
+
+#appearedText{
+    display:none;
+}
+
+#expertType{
+    font-size: 50px;
+}
+#nOfDay{
+    font-size: 50px;
+}
+#popipTraining{
+    position:relative;
+
+}
+body{
+    position:relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#popup{
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#popupTraining{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+    width:500px;
+    position:absolute;
 }
